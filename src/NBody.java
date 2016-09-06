@@ -4,7 +4,7 @@ public class NBody {
 	public static void main(String[] args){
 		double T = 157788000.0;
 		double dt = 25000.0;
-		String pfile = "input/planets.txt";
+		String pfile = "data/planets.txt";
 		if (args.length > 2) {
 			T = Double.parseDouble(args[0]);
 			dt = Double.parseDouble(args[1]);
